@@ -11,39 +11,43 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="page-header">
       <a href="" class="logo">
         <span class="first-part">Web</span><span class="last-part">Studio</span>
       </a>
       <nav class="header-nav">
-        <ul>
-          <li>
+        <ul class="nav-header">
+          <li class="item">
             <a
               class="nav-studio link"
               href="https://scoandrey.github.io/goit-markup-hw-02/"
               >Студія</a
             >
           </li>
-          <li>
+          <li class="item">
             <a
               class="nav-item link"
               href="https://scoandrey.github.io/goit-markup-hw-02/portfolio.html"
               >Портфоліо</a
             >
           </li>
-          <li><a class="nav-item link" href="">Контакти</a></li>
+          <li class="item"><a class="nav-item link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="nav-header">
+        <li class="item mail">
           <a class="mail-header link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="item tel">
           <a class="tel-header link" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
@@ -56,28 +60,28 @@
         <button class="pointer btn" type="button">Замовити послугу</button>
       </section>
       <section class="section-middle">
-        <ul>
-          <li>
+        <ul class="skills">
+          <li class="skill-box one">
             <h3 class="skill-name">увага до деталей</h3>
             <p class="team-skills">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="skill-box two">
             <h3 class="skill-name">пунктуальність</h3>
             <p class="team-skills">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="skill-box three">
             <h3 class="skill-name">планування</h3>
             <p class="team-skills">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="skill-box three">
             <h3 class="skill-name">сучасні технології</h3>
             <p class="team-skills">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -88,11 +92,11 @@
       </section>
       <section>
         <h2 class="picture-name">Чим ми займаємося</h2>
-        <ul>
-          <li>
+        <ul class="picture-name-list">
+          <li class="img-device one">
             <img src="./images/img.jpg" alt="Лэптоп" width="370" height="294" />
           </li>
-          <li>
+          <li class="img-device two">
             <img
               src="./images/img1.jpg"
               alt="Смартфон"
@@ -100,7 +104,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="img-device three">
             <img
               src="./images/img2.jpg"
               alt="Планшет"
@@ -112,8 +116,8 @@
       </section>
       <section class="section-team">
         <h2 class="picture-name">Наша команда</h2>
-        <ul>
-          <li class="team">
+        <ul class="team-photo">
+          <li class="team one">
             <img
               src="./images/img3.jpg"
               alt="Ігор Дем'яненко"
@@ -123,7 +127,7 @@
             <h3 class="team-name">Ігор Дем'яненко</h3>
             <p class="prof">Product Designer</p>
           </li>
-          <li class="team">
+          <li class="team two">
             <img
               src="./images/img4.jpg"
               alt="Ольга Рєпіна"
@@ -133,7 +137,7 @@
             <h3 class="team-name">Ольга Рєпіна</h3>
             <p class="prof">Frontend Developer</p>
           </li>
-          <li class="team">
+          <li class="team three">
             <img
               src="./images/img5.jpg"
               alt="Микола Тарасов"
@@ -143,7 +147,7 @@
             <h3 class="team-name">Микола Тарасов</h3>
             <p class="prof">Marketing</p>
           </li>
-          <li class="team">
+          <li class="team four">
             <img
               src="./images/img6.jpg"
               alt="Михайло Єрмаков"
@@ -157,12 +161,12 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="" class="logo">
-        <span class="first-part">Web</span
+      <a href="" class="logo foot">
+        <span class="first-part-footer">Web</span
         ><span class="last-part-footer">Studio</span>
       </a>
       <address>
-        <ul>
+        <ul class="address-footer">
           <li>
             <a
               class="address link"
