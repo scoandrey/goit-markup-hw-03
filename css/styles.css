@@ -145,15 +145,7 @@ a {
   color: #ffffff;
   background: #2196f3;
 }
-.btn-portf {
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: #212121;
-  background: #f5f4fa;
-}
+
 .btn:hover,
 .btn:focus {
   --background-color-btn: #188ce8;
@@ -195,7 +187,6 @@ a {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-
 
 /*section-team*/
 
@@ -242,19 +233,6 @@ a {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.content {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.content-name {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-}
 
 /*footer*/
 
@@ -293,4 +271,104 @@ a {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*hero*/
+
+.hero {
+  display: flex;
+  width: 1170px;
+  height: 1360px;
+}
+.content {
+  width: 370px;
+  height: 404px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.content-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.cap .cap-btns {
+  display: flex;
+  width: 575px;
+  height: 54px;
+  margin: 94px 513px 34px 512px;
+}
+.cap .cap-btns {
+  width: 575px;
+  height: 54px;
+}
+.cap .cap-btns .ad:not(:last-child) {
+  margin-right: 8px;
+}
+.cap .cap-btns .ad .one {
+  width: 73px;
+  height: 38px;
+}
+.cap .cap-btns .ad .two {
+  width: 125px;
+  height: 38px;
+}
+.cap .cap-btns .ad .three {
+  width: 112px;
+  height: 38px;
+}
+.cap .cap-btns .ad .four {
+  width: 103px;
+  height: 38px;
+}
+.cap .cap-btns .ad .five {
+  width: 130px;
+  height: 38px;
+}
+.btn-portf {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border: 0;
+  padding: 0;
+}
+.btn-portf:hover,
+.btn-portf:focus {
+  --background-color-btn: #188ce8;
+  background-color: var(--background-color-btn);
+  color: #ffffff;
+}
+
+/*services*/
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services .content {
+  margin-right: 30px;
+}
+.services .content:nth-child(3n) {
+  margin-right: 0;
+}
+.services .content:nth-child(3n + 1) {
+  margin-left: 0;
+}
+.services .content:nth-child(-n + 3) {
+  margin-top: 34px;
+}
+.services .content:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.services .content:nth-last-child(-n + 6) {
+  margin-top: 30px;
 }
