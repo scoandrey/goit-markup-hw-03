@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Решта коду */
 :root {
   --primari-text-color: #212121;
   --secondary-text-color: #757575;
@@ -299,6 +306,8 @@ a {
   height: 1360px;
 }
 .content {
+  display: flex;
+  flex-direction: column;
   width: 370px;
   height: 404px;
   font-weight: 700;
@@ -315,6 +324,7 @@ a {
 }
 .cap .cap-btns {
   display: flex;
+  padding: 0;
   width: 575px;
   height: 54px;
   margin: 94px 513px 34px 512px;
@@ -364,6 +374,24 @@ a {
   background-color: var(--background-color-btn);
   color: #ffffff;
 }
+.offer {
+  display: block;
+  width: 322px;
+  height: 36px;
+  padding: 20px 24px 4px 24px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.offer-name {
+  display: block;
+  width: 322px;
+  height: 30px;
+  padding: 4px 24px 20px 24px;
+}
 
 /*services*/
 
@@ -390,3 +418,19 @@ a {
 .services .content:nth-last-child(-n + 6) {
   margin-top: 30px;
 }
+/*
+.list-name {
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}*/
+
+/*.team-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--primari-text-color);
+}*/
