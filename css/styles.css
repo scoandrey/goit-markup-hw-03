@@ -26,6 +26,17 @@ a {
   --accent: #2196f3;
   color: var(--accent);
 }
+
+/*header*/
+/*
+.header-main {
+  width: 1200px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+*/
 .nav-item {
   font-weight: 500;
   font-size: 14px;
@@ -155,6 +166,9 @@ a {
 
 /*section-middle*/
 
+.img {
+  display: block;
+}
 .section-middle {
   display: flex;
   width: 1170px;
@@ -167,8 +181,6 @@ a {
 .section-middle .skills .skill-box {
   display: flex;
   flex-direction: column;
-}
-.section-middle .skills .one {
 }
 .section-middle .skills .skill-box:not(:last-child) {
   margin-right: 30px;
@@ -190,6 +202,12 @@ a {
 
 /*section-team*/
 
+.name {
+  padding: 30px 70px 10px 71px;
+}
+.name-prof {
+  padding: 10px 70px 30px 70px;
+}
 .team-photo {
   display: flex;
 }
