@@ -135,7 +135,6 @@ a {
   background: #2f303a;
 }
 .section-main .about-name {
-  display: block;
   width: 696px;
   height: 120px;
   margin: 280px 452px 30px 452px;
@@ -275,6 +274,7 @@ a {
   flex-direction: column;
   width: 1600px;
   height: 252px;
+  margin-top: 94px;
   background-color: #2f303a;
 }
 .footer .foot {
@@ -312,7 +312,6 @@ a {
 .hero {
   display: flex;
   width: 1170px;
-  height: 1360px;
 }
 .content {
   width: 370px;
