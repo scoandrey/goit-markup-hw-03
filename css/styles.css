@@ -287,12 +287,16 @@ a {
 
 /*section-team*/
 
-.container .section-team {
+/* .section-team {
   flex-direction: column;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 0;
   margin-top: 94px;
   background: #f5f4fa;
+} */
+.section-team {
+  background: #f5f4fa;
+  margin-top: 94px;
 }
 .picture-name-two {
   /* width: 366px; */
@@ -373,9 +377,6 @@ a {
   height: 252px; */
   background-color: #2f303a;
 }
-.footer-border {
-  border: 1px solid #ececec;
-}
 .footer .foot {
   width: 145px;
   height: 31px;
@@ -415,8 +416,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  margin-bottom: 94px;
-  border: 1px solid #eeeeee;
 }
 .cap {
   margin-top: 94px;
@@ -512,6 +511,7 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  border: 1px solid #eeeeee;
 }
 .offer {
   display: block;
