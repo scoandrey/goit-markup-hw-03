@@ -58,6 +58,7 @@ a {
 .header-one {
   flex-direction: row;
   align-items: center;
+  border-bottom-width: 1px solid #ececec;
 }
 .nav-item {
   font-weight: 500;
@@ -81,9 +82,9 @@ a {
 .last-part-footer {
   color: #ffffff;
 }
-.page-header {
+/* .page-header {
   border: 1px solid #ececec;
-}
+} */
 .nav-header {
   display: flex;
   padding: 0;
