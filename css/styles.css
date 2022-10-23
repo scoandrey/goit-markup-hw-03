@@ -1,8 +1,8 @@
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 /* Решта коду */
 :root {
@@ -163,11 +163,7 @@ a {
   width: 216px;
   height: 50px;
 } */
-.section-team {
-  display: flex;
-  flex-direction: column;
-  background: #f5f4fa;
-}
+
 .btn {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
@@ -197,39 +193,47 @@ a {
   height: 98px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
-/* .skills {
+.skills {
   display: flex;
-  width: 1170px;
-  height: 98px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
-.section-middle .skills {
-  display: flex;
+  padding: 0;
 }
-.section-middle .skills .skill-box {
+.skill-box {
   display: flex;
   flex-direction: column;
 }
-.section-middle .skills .skill-box:not(:last-child) {
+.skill-box .one,
+.skill-box .four {
+  display: flex;
+  width: 270px;
+  height: 98px;
+}
+.skill-box .two,
+.skill-box .three {
+  display: flex;
+  width: 270px;
+  height: 74px;
+}
+.skill-box:not(:last-child) {
   padding-right: 30px;
 }
-.section-middle .skill-name {
-  padding-top: 94px;
-  padding-bottom: 10px;
+.skill-name {
+  display: block;
+  width: 270px;
+  height: 16px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.section-middle .team-skills {
-  padding-bottom: 94px;
+.team-skills {
+  display: block;
+  width: 270px;
+  height: 72px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -237,47 +241,60 @@ a {
   color: var(--secondary-text-color);
 }
 
-/*section-team*/
+/* section pictures */
 
-.name {
-  padding: 30px 70px 10px 71px;
-}
-.name-prof {
-  padding: 10px 70px 30px 70px;
-}
-.team-photo {
-  display: flex;
-}
-.team-photo .team:not(:last-child) {
-  margin-right: 30px;
-}
-.team-photo .one {
-  margin-left: 215px;
-}
 .pictures {
+  display: flex;
+  flex-direction: column;
   width: 1170px;
   height: 386px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
-.picture-name {
-  width: 366px;
-  height: 42px;
+.picture-name-one {
+  /* justify-content: center; */
+  /* width: 366px; */
+  /* height: 42px; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
 }
-
 .picture-name-list {
   display: flex;
 }
 .picture-name-list .img-device:not(:last-child) {
-  margin-right: 30px;
+  padding-right: 30px;
 }
 /* .picture-name-list .one {
   margin-left: 215px;
 } */
+
+/*section-team*/
+
+.container .section-team {
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
+  background: #f5f4fa;
+}
+.picture-name-two {
+  /* width: 366px; */
+  /* height: 42px; */
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 18px;
@@ -285,6 +302,44 @@ a {
   letter-spacing: 0.03em;
   color: var(--primari-text-color);
 }
+/* .team-name .one {
+  width: 129px;
+} */
+
+.team-photo {
+  display: flex;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-bottom: 94px;
+}
+.team-photo .team:not(:last-child) {
+  margin-right: 30px;
+}
+.team-one,
+.team-two,
+.team-three,
+.team-four {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  text-align: center;
+  padding: 30px 70px 10px 71px;
+}
+.name-prof {
+  text-align: center;
+  padding: 0 70px 30px 70px;
+}
+/* .team-photo .one {
+  margin-left: 215px;
+} */
+/* .pictures {
+  margin-top: 94px;
+  margin-bottom:  94px;
+} */
+
 .team {
   background: #ffffff;
 }
@@ -301,8 +356,8 @@ a {
 .footer {
   display: flex;
   flex-direction: column;
-  width: 1600px;
-  height: 252px;
+  /* width: 1600px;
+  height: 252px; */
   background-color: #2f303a;
 }
 .footer-border {
