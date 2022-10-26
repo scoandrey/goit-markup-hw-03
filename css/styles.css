@@ -109,7 +109,7 @@ img {
 
 /*section-main*/
 
-.section-main { 
+.section-main {
   padding-top: 200px;
   padding-bottom: 200px;
   background: #2f303a;
@@ -247,6 +247,7 @@ img {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
