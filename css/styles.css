@@ -37,10 +37,12 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header-main {
+  border-bottom: 1px solid #ececec;
+}
 .header-one {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 .logo-one {
   font-family: "Raleway";
@@ -255,10 +257,17 @@ img {
 .team-name {
   margin-bottom: 10px;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 2;
+  font-size: 16px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--primari-text-color);
+}
+.prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 .team-photo {
   display: flex;
@@ -280,13 +289,6 @@ img {
 }
 .team {
   background: #ffffff;
-}
-.prof {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
 }
 
 /*footer*/
